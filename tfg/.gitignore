@@ -53,3 +53,7 @@ ios/Runner/GoogleService-Info.plist
 
 # === Local config ===
 android/local.properties
+
+# Build outputs
+*.apk
+*.aab
