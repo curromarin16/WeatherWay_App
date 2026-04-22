@@ -1,11 +1,30 @@
 # WeatherWay 🌦️🗺️
 
-Aplicación móvil desarrollada en **Flutter** para descubrir lugares cercanos en función del clima actual.
+Aplicación móvil desarrollada en Flutter que recomienda planes y lugares cercanos en función de la ubicación del usuario y las condiciones meteorológicas en tiempo real.
 
-Este proyecto forma parte de un **Trabajo de Fin de Grado (TFG)** y combina geolocalización, mapas, datos meteorológicos y persistencia en la nube para ofrecer recomendaciones útiles al usuario.
-
+Proyecto desarrollado como Trabajo de Fin de Grado (TFG).
 ---
+## Problema
 
+Las aplicaciones tradicionales de mapas muestran lugares cercanos sin tener en cuenta el clima, lo que puede generar recomendaciones poco útiles (por ejemplo, actividades al aire libre en días de lluvia o calor extremo).
+--
+## Solución
+
+Desarrollo de una aplicación que combina geolocalización, datos meteorológicos y categorías de interés para ofrecer recomendaciones adaptadas al contexto real del usuario.
+--
+## Lógica de recomendación
+
+Implementación de un sistema que ajusta dinámicamente los resultados en función de:
+
+condiciones meteorológicas (lluvia, temperatura)
+tipo de actividad (interior/exterior)
+preferencias del usuario
+
+Ejemplos:
+
+🌧️ Lluvia → prioriza espacios cerrados (museos, centros comerciales)
+☀️ Calor extremo → evita actividades prolongadas al aire libre
+--
 ##  Funcionalidades principales
 
 - Registro e inicio de sesión con **Firebase Auth** (email/contraseña y Google).
@@ -40,7 +59,7 @@ Este proyecto forma parte de un **Trabajo de Fin de Grado (TFG)** y combina geol
 - `app-release.apk` → build APK de ejemplo.
 
 ---
-
+La aplicación fue completamente funcional durante su desarrollo. Actualmente el backend (Firebase) no se encuentra activo.
 
 
 ## Documentación adicional
